@@ -10,7 +10,7 @@ public class Q8 {
         System.out.println("enter  number of years");
         year=sc.nextLong();
         temp=amount;
-        for(int i=0;i<year;i++)
+        for(int i=0;i<year;i++){
         temp=((100-deppercent)*temp)/100;
         System.out.println("after depreciation = "+temp);
         sc.close();
